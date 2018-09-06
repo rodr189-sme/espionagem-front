@@ -1,0 +1,179 @@
+body {
+	color: #6eb24b;
+	font-family: 'Press Start 2P', cursive;
+	/*Background Color Mobile*/
+	background-color:#000000;
+	background-image: linear-gradient(#0b1c20 0px, transparent 0px),
+	linear-gradient(90deg, #0b1c20 0px, transparent 0px),
+	linear-gradient(#0b1c20 2px, transparent 1px),
+	linear-gradient(90deg, #0b1c20 2px, transparent 1px);
+	background-size:100px 100px, 100px 100px, 40px 40px, 40px 40px;
+	background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px
+}
+
+hr {
+	/*Break Color Desktop*/
+	border-top: 3px solid #6eb24b;
+}
+
+input[type="text"], input[type="password"], textarea {
+	outline: none;
+	box-shadow:none !important;
+}
+.graphics {
+	width: 40%;
+	display: inline-block;
+}
+
+input[type="text"], input[type="text"]:focus, input[type="password"], input[type="password"]:focus
+{
+	color: #ffffff;
+	background: #6eb24b;
+	background: rgb(110,178,75, 0.3);
+
+	border-radius: 0;
+	border: none;
+}
+
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.title {
+	font-size: 1.6em;
+}
+
+.code {
+	margin-top: 1.5em;
+}
+
+.round-btn {
+	opacity: 0.9;
+}
+
+
+.inactive-code {
+	opacity: 0.3;
+}
+
+table{
+	width:100%;
+}
+
+a, a:hover, a:active, a:link, a:visited {
+	color: #096a7d;
+}
+
+p {
+	opacity: 0.8;
+}
+
+::selection{
+	background: #6eb24b;
+	color: #ffffff;
+}
+
+
+.error {
+	color: #e1322c;
+}
+
+.btn-custom, .btn-custom:active, .btn-custom:hover {
+	border-radius: 10px !important;
+	width: 100% !important;
+	padding:13px 31px !important;
+	color: #6eb24b !important;
+	background: transparent !important;
+	border-color: #6eb24b !important;
+	border-width: 3px !important;
+}
+
+.btn-custom-white, .btn-custom-white:active, .btn-custom-white:hover {
+	border-radius: 10px !important;
+	width: 100% !important;
+	padding:13px 31px !important;
+	color: #ffffff !important;
+	background: transparent !important;
+	border-color: #ffffff !important;
+	border-width: 3px !important;
+}
+
+.blink {
+	animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+	50% {
+		opacity: 0;
+	}
+}
+
+
+.large-top {
+	margin-top: 2.5em;
+}
+
+.large-bottom {
+	margin-bottom: 2.5em;
+}
+
+
+.medium-top {
+	margin-top: 1.5em;
+}
+
+.medium-bottom {
+	margin-bottom: 1.5em;
+}
+
+.small-top {
+	margin-top: 0.5em;
+}
+
+.small-bottom {
+	margin-top: 0.5em;
+}
+
+
+iframe {
+	margin-top: 1em;
+}
+
+footer {
+	margin-top: 3em;
+}
+
+
+
+#logo {
+	height: 200px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+
+
+	.title {
+		font-size: 2em
+	}
+
+	.btn-custom {
+		width: 60%;
+	}
+
+}
